@@ -71,6 +71,7 @@ h2 {
 }
 
 
+
 /* Banner */  
 #main-banner {
     height: 70vh; /* Utiliza 70% do espaço vertical/altura da tela */  
@@ -108,3 +109,22 @@ h2 {
 
 
 
+/* Sobre */
+#about-section {
+    text-align: center;
+    background-color: #ED1E24; 
+    color: #FFF; 
+    padding-top: 50px; 
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto; 
+    margin-left: auto; 
+    line-height: 30px; /* Alteração dando mais espaço na altura de linha */
+}
