@@ -17,11 +17,9 @@ h2 {
     height: 60px; /* Altura da navbar é de 60px */
 }
 
-
 #navbar h2, #navbar ul, #navbar-list li, #navbar nav {
     display: inline-block; /* Elementos um ao lado do outro */
 }
-
 
 /* Ajustando para que os textos h2 fiquem com a mesma altura da navbar, centralizando os textos */
 #navbar h2 {
@@ -29,7 +27,6 @@ h2 {
     line-height: 60px;
     margin-left: 55px;
 }
-
 
 /* Redimensionando, girando e colocando na posição absoluta a figura Estrela Ninja */
 #navbar img {
@@ -39,31 +36,26 @@ h2 {
     top: 10px;
 }
 
-
 /* Configurando a lista de navegação */
 #navbar nav {
     float: right; /* Alinhados à direita */
 }
-
 
 /* Configurando a lista de navegação */
 #navbar ul {
     margin-top: 22px; /* Configuração de margem superior (22px) */
 }
 
-
 /* Configurando os itens de navegação */
 #navbar li {
     margin: 0 10px; /* Configuração de margem superior e inferior (0), laterais (10px) */
 }
-
 
 /* Configurando cor dos links */
 #navbar-list li a {
     text-decoration: none;
     color: #FFF; /* Cor do link é branca */
 }
-
 
 /* Configurando ação ao passar mouse por cima dos links */
 #navbar-list li a:hover {
@@ -88,7 +80,6 @@ h2 {
     color: #FFF; /* Cor do texto é branca */
     padding: 50px; 
 }
-
 
 #banner-info img {
     height: 120px; 
@@ -128,6 +119,7 @@ h2 {
     margin-left: auto; 
     line-height: 30px; /* Alteração dando mais espaço na altura de linha */
 }
+
 
 
 /* Seção Skills */
@@ -233,4 +225,43 @@ h2 {
 
 .proj3 {
     background-image: url('../img/proj3.jpg');
+}
+
+
+
+/* Rodapé - Footer */
+footer {
+    padding: 50px 0;
+    background-color: #ED1E24;
+    color: #FFF;
+    text-align: center;
+}
+
+footer img {
+    height: 60px;
+    margin: 30px 0;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+footer input, footer textarea {
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box; /* Para os elementos ficaram da largura desejada - 400px */
+    margin-bottom: 20px;
+    width: 100%; /* ocupando 100% dos 400px definidos no footer form acima */
+}
+
+footer .detail {
+    font-weight: bold;
+    color: black;
 }
