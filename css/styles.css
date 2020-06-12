@@ -109,7 +109,7 @@ h2 {
 
 
 
-/* Sobre */
+/* Seção Sobre */
 #about-section {
     text-align: center;
     background-color: #ED1E24; 
@@ -127,4 +127,59 @@ h2 {
     margin-right: auto; 
     margin-left: auto; 
     line-height: 30px; /* Alteração dando mais espaço na altura de linha */
+}
+
+
+/* Seção Skills */
+#skills-section {
+    margin-top: -100px; /* Para parte da seção Skill aparecer em cima da seção Sobre */
+    background-color: #FFF; 
+    width: 80%;
+    margin-right: auto; 
+    margin-left: auto; 
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;/* Espaçamento aos cantos */
+}
+
+.central {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.skills-container h3 {
+    color: #ED1E24; 
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ED1E24; 
+    border-left: 1px solid #ED1E24; 
+    border-bottom: 4px solid #ED1E24; 
+    border-right: 4px solid #ED1E24; 
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: #ED1E24;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px;
 }
