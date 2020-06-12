@@ -8,7 +8,7 @@ h2 {
     font-size: 30px;
 }
 
-/* navbar */
+/* Navbar */
 /* Quando tem um Id no HTML, seleciona o Id utilizando a # e o nome do Id, ex.: #navbar */
 #navbar {
     background-color: #ED1E24; /* Cor de fundo é um vermelho */
@@ -69,3 +69,42 @@ h2 {
 #navbar-list li a:hover {
     border-bottom: 1px solid #FFF; /* Borda de embaixo do elemento quando o mouse passar por cima */
 }
+
+
+/* Banner */  
+#main-banner {
+    height: 70vh; /* Utiliza 70% do espaço vertical/altura da tela */  
+    background-image: url(../img/bg-projeto.jpg); 
+    background-size: cover; /* Para a imagem poder aproveitar melhor o espaço e mostrar o máximo dela */
+    padding-top: 15vh; /* Colocar o conteúdo do banner para baixo */
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto; /* Para centralizar o elemento na tela */
+    margin-left: auto; /* Para centralizar o elemento na tela */
+    text-align: center;
+    color: #FFF; /* Cor do texto é branca */
+    padding: 50px; 
+}
+
+
+#banner-info img {
+    height: 120px; 
+    border-radius: 50%; /* Raio da borda em 50%, para deixar a imagem redonda */
+    background-color: #ED1E24; /* Como se fosse um círculo vermelho em volta */
+    margin-top: 30px; /* Para centralizar o elemento na tela */
+    margin-bottom: 30px; /* Para centralizar o elemento na tela */
+}
+
+#banner-info p {
+    background-color: #ED1E24; /* Como se fosse um círculo vermelho em volta */
+    font-weight: bold;
+    width: 200px; /* Para centralizar o elemento na tela */
+    margin-right: auto; /* Para centralizar */
+    margin-left: auto; /* Para centralizar */
+    padding: 15px; 
+}
+
+
+
