@@ -1,0 +1,71 @@
+/* Geral */      /*Comentário em CSS é diferente*/
+body, p, h1, h2, input, textarea {
+    margin: 0; /* Colocando elementos uns mais juntos aos outros */
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+/* Quando tem um Id no HTML, seleciona o Id utilizando a # e o nome do Id, ex.: #navbar */
+#navbar {
+    background-color: #ED1E24; /* Cor de fundo é um vermelho */
+    color: #FFF; /* Cor de todos os textos é branca */
+    padding: 0 15px; /* Espaçamento na lateral da navbar é de 15px */
+    height: 60px; /* Altura da navbar é de 60px */
+}
+
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block; /* Elementos um ao lado do outro */
+}
+
+
+/* Ajustando para que os textos h2 fiquem com a mesma altura da navbar, centralizando os textos */
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+
+/* Redimensionando, girando e colocando na posição absoluta a figura Estrela Ninja */
+#navbar img {
+    height: 40px; /* Redimensionando da altura da imagem, para ficar menor */
+    transform: rotate(45deg); /* Girando a imagem em 45 graus */
+    position: absolute; /* Colocando a imagem na posição absoluta, onde se quiser */
+    top: 10px;
+}
+
+
+/* Configurando a lista de navegação */
+#navbar nav {
+    float: right; /* Alinhados à direita */
+}
+
+
+/* Configurando a lista de navegação */
+#navbar ul {
+    margin-top: 22px; /* Configuração de margem superior (22px) */
+}
+
+
+/* Configurando os itens de navegação */
+#navbar li {
+    margin: 0 10px; /* Configuração de margem superior e inferior (0), laterais (10px) */
+}
+
+
+/* Configurando cor dos links */
+#navbar-list li a {
+    text-decoration: none;
+    color: #FFF; /* Cor do link é branca */
+}
+
+
+/* Configurando ação ao passar mouse por cima dos links */
+#navbar-list li a:hover {
+    border-bottom: 1px solid #FFF; /* Borda de embaixo do elemento quando o mouse passar por cima */
+}
