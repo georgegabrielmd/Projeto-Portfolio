@@ -265,3 +265,111 @@ footer .detail {
     font-weight: bold;
     color: black;
 }
+
+
+
+/* Site responsivo para smartphones - media query */
+@media(max-width: 450px){
+    /* Geral */
+p, input, textarea, #navbar-list li a {
+    font-size: 1.2rem;
+}
+
+/* Navbar */
+#navbar h2 {
+    display: none; /* Retirando o meu nome da barra de navegação */
+}
+
+#navbar img {
+    top: 9px;
+}
+
+#navbar ul {
+    margin-top: 1.1rem;
+}
+
+/* Banner */
+#main-banner {
+    height: 60vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+#banner-info {
+    width: 60%;
+}
+
+#banner-info p {
+    margin: 0px;
+    width: auto;
+}
+
+/* Sobre */
+#about-section h2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#about-section {
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+/* Skills */
+#skills-section {
+    margin-top: -35px;
+    width: 90%;
+}
+
+#skills-section .container {
+    flex-direction: column;
+}
+
+.skills-container h3, .skills-container .subtitle {
+    font-size: 1.3rem;
+}
+
+.skills-container {
+    padding: 25px;
+}
+
+.skills-container .central {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+/* Jobs */
+#jobs-section h2, #jobs-section p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-container {
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.job-box {
+    margin-bottom: 2rem;
+    flex: 1 1 300px;
+}
+
+
+/* Footer */
+footer {
+    padding: 50px 15px;
+}
+
+footer form {
+    width: 100%;
+}
+
+.detail {
+    margin-top: 10px;
+    display: block;
+}
+}
